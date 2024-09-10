@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="App">
       <div className="grid">
-        <div className="daniel">
+        <div className="qoute daniel">
           <img className='logo' src={logo}/>
           <div className="userinfo">
             <img src={daniel} className="userphoto" />
             <div className="username">
-              <span>Daniel Clifford</span>
+              <span className='name'>Daniel Clifford</span>
               <span className="verified">Verified Graduate</span>
             </div>
           </div>
@@ -32,11 +32,11 @@ function App() {
           </p>
         </div>
 
-        <div className="jonathan">
+        <div className="qoute jonathan">
           <div className="userinfo">
             <img src={jonathan} className="userphoto" />
             <div className="username">
-              <span>Jonathan Walters</span>
+              <span className='name'>Jonathan Walters</span>
               <span className="verified">Verified Graduate</span>
             </div>
           </div>
@@ -49,11 +49,11 @@ function App() {
           </p>
         </div>
 
-        <div className="kira">
+        <div className="qoute kira">
           <div className="userinfo">
             <img src={kira} className="userphoto" />
             <div className="username">
-              <span>Kira Whittle</span>
+              <span className='name'>Kira Whittle</span>
               <span className="verified">Verified Graduate</span>
             </div>
           </div>
@@ -72,11 +72,11 @@ function App() {
           </p>
         </div>
 
-        <div className="jeanette">
+        <div className="qoute jeanette">
           <div className="userinfo">
             <img src={jeanette} className="userphoto" />
             <div className="username">
-              <span>Jeanette Harmon</span>
+              <span className='name'>Jeanette Harmon</span>
               <span className="verified">Verified Graduate</span>
             </div>
           </div>
@@ -88,12 +88,12 @@ function App() {
           while doing something I love. ”
           </p>
         </div>
-        
-        <div className="patrick">
+
+        <div className="qoute patrick">
           <div className="userinfo">
             <img src={patrick} className="userphoto" />
             <div className="username">
-              <span>Patrick Abrams</span>
+              <span className='name'>Patrick Abrams</span>
               <span className="verified">Verified Graduate</span>
             </div>
           </div>
